@@ -6,8 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Asoh Yannick Google Search API",
-  description:
-    "Creating my own search engine with the help of the google search API",
+  description: "I have created a google search API",
 };
 
 export default function RootLayout({ children }) {
