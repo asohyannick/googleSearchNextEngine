@@ -16,7 +16,9 @@ export default function SearchBox() {
     }
   return (
     <form className='flex border border-x-gray-200 rounded-full shadow-lg px-6 py-3 ml-10 mr-5 flex-grow max-wl-3xl items-center' onSubmit={handleSubmit}>
-      <input  type="text" className='w-full focus:outline-none' 
+      <input  type="text"
+      placeholder='Search for anything using my google search API'
+      className='w-full focus:outline-none' 
       value={term}
       onChange={(e) => setTerm(e.target.value)}
       />
