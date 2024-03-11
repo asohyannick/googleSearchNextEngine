@@ -15,6 +15,7 @@ export default function Home() {
           style={{
             width:'auto'
           }}
+          unoptimized
         />
         <HomeSearch />
       </div>
